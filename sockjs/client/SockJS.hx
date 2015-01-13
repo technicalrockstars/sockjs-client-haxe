@@ -23,7 +23,7 @@ typedef SockJSOption = {
 
 typedef SockJSEvent = Dynamic;
 
-extern class SockJS
+@:native("SockJS") extern class SockJS
 {
 	/// 接続中
 	static public var CONNECTING( default, null ):Int;
@@ -44,7 +44,7 @@ extern class SockJS
 	 * @param	_reserved	予約済
 	 * @param	options		オプション
 	 */
-	public function new( url:String, _reserved:Dynamic, options:SockJSOption );
+	public function new( url:String, ?_reserved:Dynamic, ?options:SockJSOption );
 
 	// イベントハンドラ
 

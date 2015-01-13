@@ -1,0 +1,11 @@
+{
+  "name": "sockjs-client-haxe",
+  "url": "",
+  "license": "MIT",
+  "tags": [ "sockjs" ],
+  "description": "sockjs client binding for haxe",
+  "version": "1.0.0",
+  "releasenote": "",
+  "contributors": [ "yui.k" ],
+  "dependencies": {}
+}
