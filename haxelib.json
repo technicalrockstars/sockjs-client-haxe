@@ -1,12 +1,12 @@
 {
   "name": "sockjs-client-haxe",
   "url": "https://github.com/technicalrockstars/sockjs-client-haxe",    
-  "classPath": ".",
+  "classPath": "",
   "license": "MIT",
     "tags": [ "js","web" ],
   "description": "sockjs client binding for haxe",
   "version": "0.0.1",
   "releasenote": "",
-    "contributors": [ "yui.k", "nobkz" ],
+    "contributors": [ "nobkz" ],
   "dependencies": {}
 }
